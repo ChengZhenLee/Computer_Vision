@@ -668,6 +668,7 @@ requires-dist = [
     { name = "torch", specifier = ">=2.6.0" },
     { name = "torchvision", specifier = ">=0.21.0" },
 ]
+provides-extras = ["cpu"]
 
 [[package]]
 name = "fastjsonschema"
